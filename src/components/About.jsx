@@ -7,38 +7,39 @@ const About = () => {
             <p className='font-bold text-3xl mb-0.5'>Resume</p>
             <p className='font-bold text-3xl'>Builder</p>
             <p className='h-0.5 bg-blue-600 w-1/6 mb-4'></p>
-            <p>Cv Builder dolor sit amet consectetur adipisicing elit. Earum quos adipisci eos tempora sint hic itaque libero nam quae dolores reiciendis, eligendi optio veniam sunt in natus suscipit corporis quia officiis eum? Sit reprehenderit dicta tempore ab quibusdam incidunt soluta distinctio maxime a eos quidem consectetur, qui exercitationem deleniti, corporis voluptas quisquam aspernatur repellat, nisi ratione aliquam! Reiciendis recusandae provident odio iste fugit, eveniet praesentium cumque dolores, beatae ratione, repudiandae voluptates! Quos, pariatur beatae. Amet odit blanditiis quis eaque ut!</p>
+            <p>Cv Builder is a responsive web application built with React, Tailwind CSS, Redux, and React Hook Form that allows users to create professional resumes quickly and efficiently. Users can input personal and professional details through a dynamic form, with real-time validation. qui exercitationem deleniti, corporis voluptas quisquam aspernatur repellat, nisi ratione aliquam! Reiciendis recusandae provident odio iste fugit, eveniet praesentium cumque dolores, beatae ratione the final resume can be previewed and exported as a PDF.
+            </p>
             <p className='font-semibold mt-5'>Share with your friends</p>
             {/* Social Media Buttons */}
             <div className='flex gap-3.5 w-6/12 sm:w-5/12 md:w-1/3 relative bottom-24'>
-            <lord-icon
-                src="https://cdn.lordicon.com/cxauoejw.json"
-                trigger="hover"
-                style={{width:'250px',height:'250px', cursor:'pointer'}}>
-            </lord-icon>
-            <lord-icon
-                src="https://cdn.lordicon.com/dsdlqjde.json"
-                trigger="hover"
-                style={{width:'250px',height:'250px', cursor:'pointer'}}>
-            </lord-icon>
-            <lord-icon
-                src="https://cdn.lordicon.com/vmxvhdko.json"
-                trigger="hover"
-                style={{width:'250px',height:'250px', cursor:'pointer'}}>
-            </lord-icon>
-            <lord-icon
-                src="https://cdn.lordicon.com/ykddgejj.json"
-                trigger="hover"
-                style={{width:'250px',height:'250px', cursor:'pointer'}}>
-            </lord-icon>
-            <lord-icon
-                src="https://cdn.lordicon.com/ozlkyfxg.json"
-                trigger="hover"
-                style={{width:'250px',height:'250px', cursor:'pointer'}}>
-            </lord-icon>
+                <a href='https://www.facebook.com/sharer/sharer.php?u=https://cv-builder-chi-nine.vercel.app/' target='_blank'> <lord-icon
+                    src="https://cdn.lordicon.com/cxauoejw.json"
+                    trigger="hover"
+                    style={{width:'35px',height:'250px', cursor:'pointer'}}>
+                </lord-icon></a>
+                <a href='https://www.linkedin.com/sharing/share-offsite/?url=https://cv-builder-chi-nine.vercel.app/' target='_blank'> <lord-icon
+                    src="https://cdn.lordicon.com/dsdlqjde.json"
+                    trigger="hover"
+                    style={{width:'35px',height:'250px', cursor:'pointer'}}>
+                </lord-icon></a>
+                <a href='https://api.whatsapp.com/send?text=Check%20this%20awesome%20Resume%20Builder:%20https://cv-builder-chi-nine.vercel.app/' target='_blank'> <lord-icon
+                    src="https://cdn.lordicon.com/vmxvhdko.json"
+                    trigger="hover"
+                    style={{width:'35px',height:'250px', cursor:'pointer'}}>
+                </lord-icon></a>
+                <a href='https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20Resume%20Builder!&url=https://cv-builder-chi-nine.vercel.app/' target='_blank'> <lord-icon
+                    src="https://cdn.lordicon.com/ykddgejj.json"
+                    trigger="hover"
+                    style={{width:'35px',height:'250px', cursor:'pointer'}}>
+                </lord-icon></a>
+                <a href='mailto:?subject=Check%20out%20this%20awesome%20Resume%20Builder!&body=You%20can%20try%20it%20here:%20https://cv-builder-chi-nine.vercel.app/' target='_blank'> <lord-icon
+                    src="https://cdn.lordicon.com/ozlkyfxg.json"
+                    trigger="hover"
+                    style={{width:'35px',height:'250px', cursor:'pointer'}}>
+                </lord-icon></a>
             </div>
         </div>
-        <div className='w-full pr-10'>
+        <div className='w-1/2 pr-10 mx-auto'>
         <img src="/about.svg" alt="" /></div>
     </section>
   )
